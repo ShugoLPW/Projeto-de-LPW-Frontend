@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:#E5E5E5;
+    margin: 0;
+    width:100%;
+    height:100%;
+}
+
+p{
+    font-style: italic;
+}
+
+.cadLoj{
+    background-color:#5D9B9B;
+    height:100px;
+    color: white;
+}
+
+.cadLoj img{
+    width: 300px;
+    padding:15px 0;
+}
+
+#inicioLoja{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#inicioLoja h1{
+    color: #5D9B9B;
+    font-size: 30px;
+}
+
+#inicioLoja img{
+    width:50px;
+    height:50px;
+}
+
+
+#barrinhaLoja{
+    display: flex;
+    align-items: center;
+}
+
+#barrinhaLoja hr{
+    width:500px;
+}
+
+#dados1Loja input, #dados2Loja input{
+    width: 510px;
+    height: 50px;
+    border: 0;
+    border-radius: 4px;
+
+}
+
+.dadosLoja{
+    display: flex;
+}
+
+#dados1Loja{
+    margin: auto;
+    width:35%;
+    
+}
+
+#dados2Loja{
+    margin: auto;
+}
+
+#botaoLoja{
+    width: 500px;
+    height:50px;
+    background: #5d9b9b;
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+#direcionarLoja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+#direcionarLoja a{ 
+    font-style: italic;
+}
+
+#rodapéLoja{
+    text-align: center;
+}
+
+#categoriasCad{
+    width:100px;
+    height:90px;
+    
+    margin-left:100px;
+  }
